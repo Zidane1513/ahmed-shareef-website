@@ -1,3 +1,4 @@
+// File: components/ServiceCard.js
 import Link from 'next/link';
 
 export default function ServiceCard({ service }) {
@@ -36,9 +37,9 @@ export default function ServiceCard({ service }) {
         <span className="text-indigo-400 font-bold">{service.price}</span>
         <span className="text-gray-400 text-sm">{service.turnaround}</span>
       </div>
-     <Link href={`/services/${service.id}`} className="...">
-  Learn More
-</Link>
+      <Link href={`/services/${service.id}`} className="mt-5 block text-center bg-indigo-600 text-white font-medium py-2 px-4 rounded-lg hover:bg-indigo-700 transition-colors duration-300">
+        Learn More
+      </Link>
     </div>
   );
 }
