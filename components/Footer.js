@@ -37,28 +37,28 @@ export default function Footer() {
             <h4 className="text-lg font-bold text-white mb-4">Quick Links</h4>
             <ul className="space-y-2">
               <li>
-                <Link href="/">
-                  <a className="hover:text-white transition-colors duration-300">Home</a>
+                <Link href="/" className="hover:text-white transition-colors duration-300">
+                  Home
                 </Link>
               </li>
               <li>
-                <Link href="/services">
-                  <a className="hover:text-white transition-colors duration-300">Services</a>
+                <Link href="/services" className="hover:text-white transition-colors duration-300">
+                  Services
                 </Link>
               </li>
               <li>
-                <Link href="/about">
-                  <a className="hover:text-white transition-colors duration-300">About</a>
+                <Link href="/about" className="hover:text-white transition-colors duration-300">
+                  About
                 </Link>
               </li>
               <li>
-                <Link href="/contact">
-                  <a className="hover:text-white transition-colors duration-300">Contact</a>
+                <Link href="/contact" className="hover:text-white transition-colors duration-300">
+                  Contact
                 </Link>
               </li>
               <li>
-                <Link href="/blog">
-                  <a className="hover:text-white transition-colors duration-300">Blog</a>
+                <Link href="/blog" className="hover:text-white transition-colors duration-300">
+                  Blog
                 </Link>
               </li>
             </ul>
@@ -68,28 +68,28 @@ export default function Footer() {
             <h4 className="text-lg font-bold text-white mb-4">Services</h4>
             <ul className="space-y-2">
               <li>
-                <Link href="/services/screen-replacement">
-                  <a className="hover:text-white transition-colors duration-300">Screen Replacement</a>
+                <Link href="/services/screen-replacement" className="hover:text-white transition-colors duration-300">
+                  Screen Replacement
                 </Link>
               </li>
               <li>
-                <Link href="/services/battery-replacement">
-                  <a className="hover:text-white transition-colors duration-300">Battery Replacement</a>
+                <Link href="/services/battery-replacement" className="hover:text-white transition-colors duration-300">
+                  Battery Replacement
                 </Link>
               </li>
               <li>
-                <Link href="/services/water-damage">
-                  <a className="hover:text-white transition-colors duration-300">Water Damage Repair</a>
+                <Link href="/services/water-damage" className="hover:text-white transition-colors duration-300">
+                  Water Damage Repair
                 </Link>
               </li>
               <li>
-                <Link href="/services/software-issues">
-                  <a className="hover:text-white transition-colors duration-300">Software Issues</a>
+                <Link href="/services/software-issues" className="hover:text-white transition-colors duration-300">
+                  Software Issues
                 </Link>
               </li>
               <li>
-                <Link href="/services/data-recovery">
-                  <a className="hover:text-white transition-colors duration-300">Data Recovery</a>
+                <Link href="/services/data-recovery" className="hover:text-white transition-colors duration-300">
+                  Data Recovery
                 </Link>
               </li>
             </ul>
@@ -136,13 +136,13 @@ export default function Footer() {
           <div className="mt-4 md:mt-0">
             <ul className="flex space-x-6">
               <li>
-                <Link href="/privacy">
-                  <a className="hover:text-white transition-colors duration-300">Privacy Policy</a>
+                <Link href="/privacy" className="hover:text-white transition-colors duration-300">
+                  Privacy Policy
                 </Link>
               </li>
               <li>
-                <Link href="/terms">
-                  <a className="hover:text-white transition-colors duration-300">Terms of Service</a>
+                <Link href="/terms" className="hover:text-white transition-colors duration-300">
+                  Terms of Service
                 </Link>
               </li>
             </ul>
